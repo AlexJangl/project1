@@ -14,6 +14,10 @@ int main()
 				count++;
 			}
 		}
+		if (count == 1)
+		{
+			std::cout << vect[i];
+		}
 	}
 }
 
